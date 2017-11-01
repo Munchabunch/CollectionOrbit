@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CollectionOrbit
+</name>
+</assembly>
+<members>
+<member name="T:CollectionOrbit.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CollectionOrbit.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CollectionOrbit.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CollectionOrbit.bas_DirObjNames.FileExtension(System.String)">
+ <summary>
+ Pull the extension from a file name.
+ </summary>
+ <param name="str_FileName">name of file with optional path</param>
+ <returns>Every character past the last "."</returns>
+ <remarks>Periods in the file path are ignored.</remarks>
+ <credits>Original code by Mike Adams</credits>
+</member>
+<member name="M:CollectionOrbit.bas_DirObjNames.DirObjName(System.String)">
+ <summary>
+ Remove the path from a pathed directory object name.
+ </summary>
+ <param name="str_PathedDirObjName">name of file including its path</param>
+ <returns>Unpathed file name</returns>
+</member>
+<member name="M:CollectionOrbit.bas_DirObjNames.RemoveFileExtension(System.String)">
+ <summary>
+ Remove the extension from a file name.
+ </summary>
+ <param name="str_FileName">un-pathed name of the file</param>
+ <returns>Every character before the last ".", if any</returns>
+ <credits>Original code by Mike Adams</credits>
+</member>
+<member name="M:CollectionOrbit.bas_General.BackupFile(System.String)">
+ <summary>
+ Make a backup copy of a file.
+ </summary>
+ <param name="str_PathedFileName_Orig"></param>
+ <remarks></remarks>
+ <credits>Original code by Mike Adams</credits>
+</member>
+<member name="M:CollectionOrbit.bas_General.GetFileContents(System.String)">
+ <summary>
+ Return a file's text contents.
+ </summary>
+ <param name="str_PathedFileName"></param>
+ <returns></returns>
+</member>
+<member name="M:CollectionOrbit.bas_General.SetFileContents(System.String,System.String)">
+ <summary>
+ Write a text string to a file.
+ </summary>
+ <param name="str_PathedFileName"></param>
+ <param name="str_FileText"></param>
+</member>
+<member name="M:CollectionOrbit.frm_CollOrbit.DisplayFile">
+ <summary>
+ Display the file in the picture box, if possible.
+ </summary>
+</member>
+<member name="M:CollectionOrbit.frm_CollOrbit.DisplayInfo">
+ <summary>
+ Display the info.txt file in the text box.
+ </summary>
+</member>
+<member name="M:CollectionOrbit.frm_CollOrbit.SaveInfoFile">
+ <summary>
+ Save the info.txt file to disk.
+ </summary>
+</member>
+</members>
+</doc>
